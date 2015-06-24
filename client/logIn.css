@@ -1,0 +1,93 @@
+/* CSS declarations go here */
+.loginMain {
+    #position: relative; #top: -50%; #left: -50%;
+}
+.ctn_logIn{
+    background:url("mainImg/6times.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:whitesmoke;
+    height: 700px;
+
+}
+
+
+.koodcenter{
+    text-align : center;
+    font-family: 'Kool Beans';
+    font-size: 130px;
+}
+
+/* 여기서부터 login.html css입니다.*/
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin-heading{
+    text-align: center;
+    font-family:"Kool Beans";
+
+}
+.form-signin-heading2{
+    text-align: center;
+
+
+}
+
+
+
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.cnt_signUp{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    #position: relative; #top: -50%; #left: -50%;
+
+}
+
+
+@font-face {
+    font-family: Kool Beans; src: url('http://www.mediafont.com/storage/contents/10911/font.eot');
+     /* IE */
+    src: local('Kool Beans'), url('http://www.mediafont.com/storage/contents/10911/KoolBean.ttf');
+    /* non-IE */
+}
